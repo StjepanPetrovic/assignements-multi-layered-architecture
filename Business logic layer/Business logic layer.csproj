@@ -42,7 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssignementServices.cs" />
-    <Compile Include="AssignementStatusServices.cs" />
+    <Compile Include="AssignementStatusService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
