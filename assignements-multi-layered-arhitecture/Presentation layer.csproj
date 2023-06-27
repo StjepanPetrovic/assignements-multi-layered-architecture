@@ -52,10 +52,19 @@
     <Compile Include="AssignementsForm.Designer.cs">
       <DependentUpon>AssignementsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="NewAssignementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewAssignementForm.Designer.cs">
+      <DependentUpon>NewAssignementForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AssignementsForm.resx">
       <DependentUpon>AssignementsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewAssignementForm.resx">
+      <DependentUpon>NewAssignementForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
