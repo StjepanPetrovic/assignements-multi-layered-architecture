@@ -11,7 +11,7 @@ namespace Business_logic_layer
 {
     public class AssignementStatusServices
     {
-        public List<AssignmentStatus> getAssignments()
+        public List<AssignmentStatus> getAssignmentsStatuses()
         {
             using (var repo = new AssignmentStatusRepository())
             {
