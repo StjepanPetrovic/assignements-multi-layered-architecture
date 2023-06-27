@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace assignements_multi_layered_arhitecture
 {
-    public partial class Form1 : Form
+    public partial class AssignementsForm : Form
     {
-        public Form1()
+        public AssignementsForm()
         {
             InitializeComponent();
         }
