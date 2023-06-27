@@ -1,4 +1,6 @@
-namespace Data_access_layer
+using Data_access_layer;
+
+namespace Entity_layer.Entities
 {
     using System;
     using System.Collections.Generic;

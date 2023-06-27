@@ -1,9 +1,10 @@
+using Data_access_layer;
 using System;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity;
 using System.Linq;
 
-namespace Data_access_layer
+namespace Entity_layer.Entities
 {
     public partial class AssignementsModel : DbContext
     {
