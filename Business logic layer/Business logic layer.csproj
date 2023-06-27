@@ -43,5 +43,15 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Data access layer\Data access layer.csproj">
+      <Project>{2714edfb-fbcc-45a0-850c-3154287910d5}</Project>
+      <Name>Data access layer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entity layer\Entity layer.csproj">
+      <Project>{47898ed8-282a-4ac5-9f5e-26896562035b}</Project>
+      <Name>Entity layer</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
