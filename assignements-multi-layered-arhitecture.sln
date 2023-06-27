@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "assignements-multi-layered-arhitecture", "assignements-multi-layered-arhitecture\assignements-multi-layered-arhitecture.csproj", "{04766CC1-2774-4479-A39A-0626BD839F61}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation layer", "assignements-multi-layered-arhitecture\Presentation layer.csproj", "{04766CC1-2774-4479-A39A-0626BD839F61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data access layer", "Data access layer\Data access layer.csproj", "{2714EDFB-FBCC-45A0-850C-3154287910D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{04766CC1-2774-4479-A39A-0626BD839F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04766CC1-2774-4479-A39A-0626BD839F61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04766CC1-2774-4479-A39A-0626BD839F61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2714EDFB-FBCC-45A0-850C-3154287910D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2714EDFB-FBCC-45A0-850C-3154287910D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2714EDFB-FBCC-45A0-850C-3154287910D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2714EDFB-FBCC-45A0-850C-3154287910D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
