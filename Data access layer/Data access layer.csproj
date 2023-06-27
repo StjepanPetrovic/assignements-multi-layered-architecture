@@ -52,6 +52,8 @@
   <ItemGroup>
     <Compile Include="AssignementsModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\AssignmentRepository.cs" />
+    <Compile Include="Repositories\AssignmentStatusRepository.cs" />
     <Compile Include="Repositories\Repository.cs" />
   </ItemGroup>
   <ItemGroup>
